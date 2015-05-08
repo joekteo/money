@@ -109,6 +109,16 @@
   margin-bottom: 100px;
 }
 
+.testimonies-container h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimonies-container p {
+  font-weight: 300;
+}
+
+
 /*** Pattern ***/
 .pattern {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAaElEQVQYV12PUQ2AQAxD32SADZCBDmwQbKADGWADZBwpbMvCfW1Z+9ozYABOvrcAG3D73swHiSZg9b0DLsBCIOdeSA3oRZJAx3CKdMgZJA3CZSYw1k6pjMx/pxBkZvnN20kCHStprp0eilwX0w7FFEcAAAAASUVORK5CYII=) repeat;
