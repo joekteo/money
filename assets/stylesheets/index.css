@@ -78,6 +78,8 @@
 .description-container {
   margin-bottom: 100px;
   margin-top: 100px;
+  padding-bottom: 100px;
+      border-bottom: 2px solid #A3A9AC;
 }
 
 .description-container h3 {
@@ -96,6 +98,18 @@
 }
 
 /*** Testimonies ***/
+.testimonies-container img {
+  border-radius: 40px;
+  max-width: 150px;
+  height: auto;
+}
+
+.testimonies-container {
+  /*text-align: center;*/
+  margin-bottom: 100px;
+}
+
+/*** Pattern ***/
 .pattern {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAaElEQVQYV12PUQ2AQAxD32SADZCBDmwQbKADGWADZBwpbMvCfW1Z+9ozYABOvrcAG3D73swHiSZg9b0DLsBCIOdeSA3oRZJAx3CKdMgZJA3CZSYw1k6pjMx/pxBkZvnN20kCHStprp0eilwX0w7FFEcAAAAASUVORK5CYII=) repeat;
   height: 20px;
@@ -128,7 +142,7 @@
   font-size: 60px;
   position: absolute;
   left: 903px;
-  top: 2071px;
+  top: 2725px;
   z-index: 0;
 }
 
@@ -138,7 +152,7 @@
   font-weight: bold;
   position: absolute;
   left: 949px;
-  top: 2075px;
+  top: 2740px;
   z-index: 2;
 }
 
