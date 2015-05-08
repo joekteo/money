@@ -1,0 +1,22 @@
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    right: 50px; /* padding from the left side of the window */
+}
+
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 50px; /* height of link element */
+    right: 50px; /* padding from the left side of the window */
+}
+
+/*** JKT Customize ***/
+.return-top {
+  border: 2px solid #A3A9AC;
+  border-radius: 50px;
+  padding: 12px;
+}
+
+.glyphicon-chevron-up {
+  color: #00AFA9;
+}

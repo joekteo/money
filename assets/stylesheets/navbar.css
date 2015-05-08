@@ -1,0 +1,28 @@
+.navbar-brand-centered {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 160px;
+  text-align: center;
+  background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+  margin-left: -80px;
+}
+
+/*** JKT SPECS ***/
+.navbar-default {
+  background: #050606;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-weight: 500;
+  color: #E4E4E4;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  font-weight: 700;
+  color: #00AFA9;
+}
