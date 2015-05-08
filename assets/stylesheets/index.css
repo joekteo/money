@@ -106,7 +106,9 @@
 
 .testimonies-container {
   /*text-align: center;*/
+  /*margin: 100px 0;*/
   margin-bottom: 100px;
+  margin-top: 130px;
 }
 
 .testimonies-container h3 {
