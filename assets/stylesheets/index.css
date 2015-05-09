@@ -3,12 +3,12 @@
 /*** Banner ***/
 .index-banner {
   background: #1b1f23;
+  /*background: url(../images/bannerimg.png);*/
   /*background: url(../images/PATTERN_12X12-03.png);*/
     /*border-bottom: 2px solid #A3A9AC;*/
   margin-top: -25px;
   /*min-height: 760px;*/
-  min-height: 850px;
-
+  min-height: 100vh;
 }
 
 .logo-box {
@@ -25,9 +25,27 @@
   margin-top: 80px;
 }
 
+.navbar {
+  margin: 40px 50px 0 0;
+}
+
+.navbar a {
+  color: #A3A9AC;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  /*margin-right: ;*/
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  border-bottom: 2.5px solid #0099AB;
+}
+
 #sf-logo {
   max-width: 300px;
   height: auto;
+  margin-left: 40px;
   /*margin-top: 160px;*/
   /*margin-right: 40px;*/
 }
